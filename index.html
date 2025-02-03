@@ -1,104 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abderrazzaq MOUFIDI</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abderrazzaq MOUFIDI - Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" href="a.png" type="image/png">
 </head>
 <body>
-    <header>
-        <div class="profile-container">
-            <img src="me.jpg" alt="Abderrazzaq MOUFIDI" class="profile-photo">
-            <div class="intro">
-                <h1>Abderrazzaq MOUFIDI</h1>
-                <p>Ph.D. in Artificial Intelligence</p>
-                <p>University of Angers, France</p>
-                <p><a href="https://scholar.google.com/citations?hl=en&user=a6FhgPAAAAAJ" target="_blank">Google Scholar Profile</a></p>
-            </div>
-        </div>
-    </header>
-
-    <nav>
+  <header>
+    <div class="container">
+      <div class="header-content">
+      <img src="me.jpg" alt="Abderrazzaq MOUFIDI" class="profile-picture">
+      <div class="header-text">
+        <h1>Abderrazzaq MOUFIDI</h1>
+        <p>Ph.D. in Artificial Intelligence</p>
+      </div>
+    </div>
+      <nav>
         <ul>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#projects">Projects</a></li>
-	    <li><a href="#awards">Awards</a></li>
-            <li><a href="#interests">Interests</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about"><i class="icon fas fa-user"></i>About</a></li>
+            <li><a href="#education"><i class="icon fas fa-graduation-cap"></i>Education</a></li>
+            <li><a href="#skills"><i class="icon fas fa-code"></i>Skills</a></li>
+            <li><a href="#experience"><i class="icon fas fa-briefcase"></i>Experience</a></li>
+            <li><a href="#publications"><i class="icon fas fa-book"></i>Publications</a></li>
+            <li><a href="#projects"><i class="icon fas fa-project-diagram"></i>Projects</a></li>
+            <li><a href="#interests"><i class="icon fas fa-lightbulb"></i>Interests</a></li>
+            <li><a href="#contact"><i class="icon fas fa-envelope"></i>Contact</a></li>
         </ul>
-    </nav>
+      </nav>
+    </div>
+  </header>
 
-    <section id="education">
-        <h2>Education</h2>
-        <div class="education-item">
-            <h3>University of Angers (UA) - Polytech Angers</h3>
-            <p>Ph.D. in Artificial Intelligence (2021 - 2024)</p>
-            <p>Thesis: Contributions to Machine Learning-Based Multimodal Integration</p>
-        </div>
-        <!-- Repeat for other educational institutions -->
-    </section>
+  <section id="about" class="container">
+    <h2><i class="icon fas fa-user"></i>About Me</h2>
+     <p>
+        I hold a <strong>PhD in Artificial Intelligence</strong> from the University of Angers, specializing in 
+        <strong>multimodal machine learning</strong> for <strong>biometrics</strong> and <strong>human behavior analysis</strong>. My work focuses on developing 
+        <strong>efficient</strong> and <strong>scalable fusion techniques</strong> to enhance <strong>security</strong>, <strong>authentication</strong>, and 
+        <strong>real-time engagement detection</strong>.
+    </p>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Python</li>
-            <li>C, C++</li>
-            <li>MATLAB</li>
-            <li>COMSOL Multiphysics</li>
-            <!-- Add more skills -->
+    <p>
+        I have designed and implemented <strong>advanced AI models</strong> that integrate diverse sensor data, including 
+        <strong>audio</strong>, <strong>RGB</strong>, <strong>depth video</strong>, and <strong>physiological signals</strong>. My contributions include improving 
+        <strong>speaker identification accuracy</strong> for <strong>short utterances</strong> using <strong>multiscale Wavelet Scattering Transform</strong> 
+        and <strong>x-vector architectures</strong>, as well as developing <strong>late fusion methods</strong> that enhance <strong>biometric recognition</strong> 
+        while reducing <strong>computational complexity</strong>.
+    </p>
+
+    <p>
+        I have also worked on <strong>deepfake detection</strong>, developing methods based on <strong>shallow learning</strong> and a fine-tuned 
+        <strong>late fusion architecture</strong> applied to <strong>RGB lip videos</strong> and <strong>audio</strong>. By leveraging 
+        <strong>hand-crafted anomaly detection techniques</strong> for both <strong>audio</strong> and <strong>visual modalities</strong>, my work 
+        demonstrated <strong>robust detection capabilities</strong> across diverse datasets and conditions. This research highlights 
+        the importance of <strong>multimodal approaches</strong> in countering evolving <strong>deepfake techniques</strong>.
+    </p>
+
+    <p>
+        Beyond <strong>biometrics</strong>, I explored <strong>AI-driven engagement detection</strong> in <strong>educational settings</strong>, integrating 
+        <strong>heart rate signals</strong> with <strong>Vision Transformer-based facial expression analysis</strong> to enable 
+        <strong>real-time monitoring</strong> and <strong>adaptive learning environments</strong>.
+    </p>
+
+    <p>
+        With a strong foundation in <strong>machine learning</strong>, <strong>deep learning</strong>, and <strong>signal processing</strong>, 
+        I am passionate about applying <strong>AI</strong> to real-world challenges in <strong>security</strong>, 
+        <strong>human-computer interaction</strong>, and <strong>intelligent systems</strong>. 
+    </p>
+  </section>
+
+  <section id="education" class="container">
+    <h2><i class="icon fas fa-graduation-cap"></i>Education</h2>
+    <ul style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333;">
+    <li style="margin-bottom: 20px;">
+        <strong style="font-family: 'Georgia', serif; font-size: 18px; color: #2c3e50;">Ph.D. in Artificial Intelligence</strong><br>
+        <strong style="font-family: 'Georgia', serif; font-size: 16px; color: #34495e;">University of Angers - Polytech Angers</strong> (Oct 2021 - Oct 2024)<br>
+        <strong style="font-family: 'Georgia', serif; font-size: 16px; color: #34495e;">Thesis:</strong> <strong>Machine Learning-Based Multimodal Integration for Short Utterance-Based Biometrics Identification and Engagement Detection</strong><br>
+        
+        <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            My Ph.D. research at the University of Angers focuses on the fusion of <strong>multimodal</strong> data to address challenges ranging from biometrics to student engagement detection. My first contribution involved integrating the <em>Wavelet Scattering Transform</em>—a time-frequency representation of signals—at multiple layers within a deep architecture called x-vectors, which <strong>improved speaker identification performance</strong> in short utterance scenarios while <strong>reducing the number of trainable parameters</strong>.
+        </p>
+        
+        <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            Additionally, I proposed a late fusion architecture combining <strong>lip depth videos</strong> with <strong>audio signals</strong>, where the video <strong>(2D+time)</strong> was divided into multiple 2D views to decrease the <strong>computational cost</strong> of the method. This led to better accuracy with <strong>fewer computational resources</strong>.
+        </p>
+        
+        <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            I also developed two <strong>deepfake detection methods</strong> based on simple, interpretable mathematical techniques, as well as an optimized version of my late fusion approach applied to RGB lip videos and audio.
+        </p>
+        
+        <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            Finally, in the educational context, my research explored <strong>unsupervised multimodal student engagement detection</strong> using <strong>heart rate signals</strong> and <strong>facial expressions</strong> in an interdisciplinary manner.
+        </p>
+        
+        <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            Key contributions include:
+        </p>
+        
+        <ul style="list-style-type: disc; margin-left: 20px; font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            <li><strong>Speaker Identification:</strong> Developed <em>multiscale Wavelet Scattering Transform with x-vectors</em>, enhancing short-utterance speaker identification while optimizing computational efficiency.</li>
+            <li><strong>Multimodal Fusion for Biometrics:</strong> Designed a <em>late fusion architecture</em> leveraging lip depth videos and audio, reducing computational cost while improving accuracy.</li>
+            <li><strong>Deepfake Detection:</strong> Created <em>two interpretable detection techniques</em> alongside an optimized late fusion approach applied to RGB lip videos and audio.</li>
+            <li><strong>Engagement Analysis in Education:</strong> Developed an <em>unsupervised engagement detection system</em> using heart rate signals and facial expressions, contributing to real-time learning interventions.</li>
         </ul>
-    </section>
+        
+        <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            🔗 <a href="https://youtu.be/0hN1RmmgKTQ?si=ZWxmwrN1tbMI22VO" target="_blank" style="color: #2980b9; text-decoration: none;">Presentation Video</a> | 
+            <a href="https://theses.fr/s309378" target="_blank" style="color: #2980b9; text-decoration: none;">Thesis Manuscript</a>
+        </p>
+    </li>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Assistant Teacher, ESAIP, Angers</h3>
-            <p>October 2022 - January 2023</p>
-            <p>Teaching Arithmetic courses to first-year Bachelor students</p>
-        </div>
-        <!-- Repeat for other experiences -->
-    </section>
 
-    <section id="publications">
-        <h2>Publications</h2>
-        <ul>
-            <li>Wavelet Scattering Transform Depth Benefit, IAPR Workshop (2022)</li>
-            <li>Attention-Based Fusion of Ultrashort Voice Utterances, Sensors (2023)</li>
-            <!-- Add more publications -->
+
+    <li style="margin-bottom: 20px;">
+        <strong style="font-family: 'Georgia', serif; font-size: 18px; color: #2c3e50;">École Normale Supérieure de Rennes (ENS)</strong> (September 2018 - 2021)<br>
+        <strong style="font-family: 'Georgia', serif; font-size: 16px; color: #34495e;">Degrees:</strong><br>
+        - Bachelor in Engineering Sciences, Complex Systems Engineering<br>
+        - Bachelor in Electronics, electrical energy and automation, with a specialisation in complex systems engineering<br>
+        - Master’s degree in Complex Systems Engineering.<br>
+        - Magistere in Mechatronics<br>
+        
+        <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            <strong>Relevant Coursework:</strong>
+        </p>
+        
+        <ul style="list-style-type: disc; margin-left: 20px; font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+            <li><strong>Robotics (Control):</strong> Studied advanced control systems for robotic applications, including PID controllers and state-space modeling.</li>
+            <li><strong>Image and Signal Processing:</strong> Explored techniques for analyzing and processing signals and images, including Fourier transforms, filtering, and feature extraction.</li>
         </ul>
-    </section>
+    </li>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-item">
-            <h3>Sparsity and Inverse Problems Project</h3>
-            <p>Recovering clean signal from a distorted one (magnitude saturation)</p>
-        </div>
-        <!-- Repeat for other projects -->
-    </section>
+      
+      
+      
+      <li style="margin-bottom: 20px;">
+    <strong style="font-family: 'Georgia', serif; font-size: 18px; color: #2c3e50;">Master’s Degree in Automatic Control, Signal and Image Processing</strong><br>
+    <strong style="font-family: 'Georgia', serif; font-size: 16px; color: #34495e;">University of Paris-Saclay (UPSAY)</strong> (Sept 2020 - 2021)<br>
+    <strong style="font-family: 'Georgia', serif; font-size: 16px; color: #34495e;">Specialization:</strong> Machine Learning, Sparsity, Optimization, Medical Imaging, Estimation, Inverse Problems, Control for Robotics, Signal and Image Processing.<br>
+    
+    <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">During my master’s, I gained expertise in various advanced topics that are crucial for modern AI and engineering applications. My coursework and projects focused on:</p>
+    
+    <ul style="list-style-type: disc; margin-left: 20px; font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+        <li><strong>Estimation:</strong> Studied parametric models for analyzing physical phenomena, system fault detection. Explored optimal parameter estimation, model selection, and Kalman filter.</li>
+        <li><strong>Optimization:</strong> Studied continuous optimization methods crucial for signal/image processing, inverse problems, machine learning, and optimal control.</li>
+        <li><strong>Inverse Problems:</strong> Applied variational and Bayesian methods to reconstruct signals/images in biomedical, astrophysical, and industrial applications, handling ill-posed problems with regularization techniques.</li>
+        <li><strong>Control for Robotics:</strong> Worked on trajectory tracking control, implementing solutions in Python for various robotic and biological systems.</li>
+        <li><strong>Medical Imaging:</strong> Studied PET and MRI reconstruction techniques, including deep learning-based methods. Implemented classical and AI-driven reconstructions in lab sessions.</li>
+        <li><strong>Machine Learning:</strong> Covered foundational and modern ML techniques, including deep learning, for applications in image classification and segmentation.</li>
+        <li><strong>Signal and Image Processing:</strong> Learned estimation/detection concepts applied to noise modeling, information extraction, and optimization for imaging systems.</li>
+        <li><strong>Sparse Signal Representation:</strong> Explored time-frequency and time-scale analysis techniques, as well as sparse signal synthesis using learned dictionaries.</li>
+    </ul>
+    </li>
 
-    <section id="interests">
-        <h2>Interests</h2>
-        <ul>
-            <li>Running</li>
-            <li>Chess</li>
-            <li>Tennis</li>
-            <li>Climbing</li>
-            <li>Technology</li>
-            <li>History</li>
-            <li>Travel</li>
+      
+      
+      
+      <li style="margin-bottom: 20px;">
+    <strong style="font-family: 'Georgia', serif; font-size: 18px; color: #2c3e50;">École Polytechnique Fédérale de Lausanne (EPFL), Switzerland</strong> - Exchange Program (February - August 2020)<br>
+    
+    <p style="font-family: 'Arial', sans-serif; font-size: 14px; color: #444;"><strong>Courses:</strong></p>
+    <ul style="list-style-type: disc; margin-left: 20px; font-family: 'Arial', sans-serif; font-size: 14px; color: #444;">
+        <li><strong>Deep Learning:</strong> Introduction to designing and training neural networks, covering empirical risk minimization, convolutional networks, optimization techniques, deep models for vision, generative models, and NLP using PyTorch.</li>
+        <li><strong>Computer Vision:</strong> Techniques for modeling the world from digital images, including contour detection, texture analysis, 3D shape recovery, and human vs. machine vision. Hands-on Python exercises.</li>
+        <li><strong>Computational Motor Control:</strong> Study of numerical models for locomotion and movement control in animals and robots, covering sensory-motor coordination, biomechanics, muscle synergies, and neuroprosthetics. Python-based simulations.</li>
+        <li><strong>Image Analysis and Pattern Recognition:</strong> Methods for image acquisition, preprocessing, segmentation, feature extraction, shape recognition, and Bayesian classification. Includes practical work and a mini-project.</li>
+        <li><strong>Statistical Signal Processing:</strong> Advanced techniques for spectral analysis, estimation, prediction, classification, and adaptive filtering, applied to wireless transmission, neurobiological recordings, and echo cancellation using Python/Matlab.</li>
+    </ul>
+    </li>
+      
+      
+      <li style="margin-bottom: 20px;">
+    <strong style="font-family: 'Georgia', serif; font-size: 18px; color: #2c3e50;">Classes Préparatoires Scientifiques (CPGE)</strong> (September 2015 - June 2018)<br>
+    <strong style="font-family: 'Georgia', serif; font-size: 16px; color: #34495e;">Field of Study:</strong> Physics, Chemistry, and Engineering Sciences<br>
+    <strong style="font-family: 'Georgia', serif; font-size: 16px; color: #34495e;">Achievement:</strong> Admitted to ENS Rennes with a French Excellence Scholarship after passing the highly competitive X-ENS entrance exam.<br>
+    </li>
+
+
+    </ul>
+  </section>
+
+  <section id="skills" class="container">
+    <h2><i class="icon fas fa-code"></i>Skills</h2>
+    <ul style="list-style-type: none; padding-left: 0; font-family: 'Poppins', sans-serif; font-size: 16px; color: #4a4a4a; line-height: 1.8;">
+    <li>
+        <strong style="color: #2c3e50;">Programming Languages:</strong> Python, C, C++, OpenFOAM
+    </li>
+    <li>
+        <strong style="color: #2c3e50;">Python Libraries & Frameworks:</strong> OpenCV, PyTorch, Hugging Face, SpeechBrain, Kaldi, Kymatio, Pymba
+    </li>
+    <li>
+        <strong style="color: #2c3e50;">Software:</strong> MATLAB, COMSOL Multiphysics, SolidWorks
+    </li>
+    <li>
+        <strong style="color: #2c3e50;">Languages:</strong> English (Advanced), French (Fluent)
+    </li>
+    </ul>
+
+  </section>
+
+  <section id="experience" class="container">
+    <h2><i class="icon fas fa-briefcase"></i>Experience</h2>
+
+    <ul style="list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 20px;">
+        <h3 style="font-family: 'Poppins', sans-serif; font-size: 18px; color: #2c3e50; margin: 0; font-weight: 600;">
+            Assistant Teacher
+        </h3>
+        <p style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #7f8c8d; margin: 2px 0 8px;">
+            ESAIP, Angers <span style="color: #34495e;">(October 2022 - January 2023)</span>
+        </p>
+        <ul style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #4a4a4a; padding-left: 20px; line-height: 1.6;">
+            <li> Taught Arithmetic courses (30h) to first-year Bachelor students.</li>
         </ul>
-    </section>
+    </li>
 
-    <footer id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:amoufidi97@gmail.com">amoufidi97@gmail.com</a></p>
-    </footer>
+    <li style="margin-bottom: 20px;">
+    <h3 style="font-family: 'Poppins', sans-serif; font-size: 18px; color: #2c3e50; margin: 0; font-weight: 600;">
+        Assistant Trainer
+    </h3>
+    <p style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #7f8c8d; margin: 2px 0 8px;">
+        EMBL, Heidelberg, Germany <span style="color: #34495e;">(January 2022)</span>
+    </p>
+    <ul style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #4a4a4a; padding-left: 20px; line-height: 1.6;">
+        <li>Assisted in pre-course sessions, including homework review and technical troubleshooting, to prepare participants for the intensive week-long program.</li>
+        <li>Delivered hands-on training on deep learning techniques for microscopy image analysis and segmentation, enabling participants to apply convolutional neural networks (U-Net) to real-world biomedical data.</li>
+        <li>Supported participants in designing and implementing image analysis pipelines, including training, validation, and testing, as well as selecting optimal learning rates for segmentation tasks, using Python and Keras to ensure a practical understanding of machine learning frameworks.</li>
+    </ul>
+</li>
 
-    <script src="scripts.js"></script>
+    <li style="margin-bottom: 20px;">
+    <h3 style="font-family: 'Poppins', sans-serif; font-size: 18px; color: #2c3e50; margin: 0; font-weight: 600;">
+        Research Intern
+    </h3>
+    <p style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #7f8c8d; margin: 2px 0 8px;">
+        LARIS Laboratory, Polytech Angers, France <span style="color: #34495e;">(April - September 2021)</span>
+    </p>
+    <ul style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #4a4a4a; padding-left: 20px; line-height: 1.6;">
+        <li>Developed a robust speaker identification system using voice characteristics, leveraging Python and PyTorch for machine learning and deep learning implementations.</li>
+        <li>Evaluated and compared the performance of feature extraction techniques, including MFCC, Wavelet Scattering Transform, x-vectors, and Transformers, for speaker identification tasks.</li>
+        <li>Applied data augmentation techniques to simulate real-world noise conditions, improving the robustness of the system in noisy environments.</li>
+    </ul>
+</li>
+
+    <li style="margin-bottom: 20px;">
+    <h3 style="font-family: 'Poppins', sans-serif; font-size: 18px; color: #2c3e50; margin: 0; font-weight: 600;">
+        Research Intern
+    </h3>
+    <p style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #7f8c8d; margin: 2px 0 8px;">
+        DISAL Laboratory, EPFL, Switzerland <span style="color: #34495e;">(February - June 2020)</span>
+    </p>
+    <ul style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #4a4a4a; padding-left: 20px; line-height: 1.6;">
+        <li>Simulated airflow around our mini-drone using OpenFOAM (C language based) to optimize the placement of chemical sensors for gas detection in indoor environments.</li>
+        <li>Analyzed the impact of propeller rotation on airflow patterns to identify optimal sensor locations unaffected by turbulence, ensuring accurate detection of gas locations.</li>
+        <li>Validated simulation results to ensure reliability and provided actionable insights for sensor positioning to maximize gas concentration detection efficiency.</li>
+    </ul>
+</li>
+
+    <li style="margin-bottom: 20px;">
+    <h3 style="font-family: 'Poppins', sans-serif; font-size: 18px; color: #2c3e50; margin: 0; font-weight: 600;">
+        Research Intern
+    </h3>
+    <p style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #7f8c8d; margin: 2px 0 8px;">
+        Institute of Physics, Rennes, France <span style="color: #34495e;">(May - July 2019)</span>
+    </p>
+    <ul style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #4a4a4a; padding-left: 20px; line-height: 1.6;">
+        <li>Developed a real-time imaging system to capture and analyze flow deformation without the use of physical tracers, enabling the detection of Marangoni circles during fluid flow experiments.</li>
+        <li>Programmed a scientific camera using Python to acquire live images and process them for real-time analysis of flow dynamics.</li>
+        <li>Applied advanced image processing techniques to detect Marangoni circle and calculate its radius, contributing to the study of surface tension-driven flows.</li>
+        
+    </ul>
+    </li>
+    </ul>
+  </section>
+
+  <section id="publications" class="container">
+    <h2><i class="icon fas fa-book"></i>Publications</h2>
+    <ul>
+      <li>
+        <strong><a href="https://link.springer.com/chapter/10.1007/978-3-031-20650-4_8" target="_blank">Wavelet Scattering Transform Depth Benefit, An Application for Speaker Identification</a></strong><br>
+        Abderrazzaq Moufidi, David Rousseau, and Pejman Rasti. In: IAPR Workshop on Artificial Neural Networks in Pattern Recognition, Springer, 2022.
+      </li>
+      <li>
+        <strong><a href="https://www.mdpi.com/1424-8220/23/13/5890" target="_blank">Attention-Based Fusion of Ultrashort Voice Utterances and Depth Videos for Multimodal Person Identification</a></strong><br>
+        Abderrazzaq Moufidi, David Rousseau, and Pejman Rasti. In: Sensors 23.13 (2023), p. 5890.
+      </li>
+      <li>
+        <strong><a href="https://link.springer.com/article/10.1007/s11042-024-20284-x" target="_blank">Toward comprehensive short utterances manipulations detection in videos</a></strong><br>
+        Abderrazzaq Moufidi, David Rousseau, and Pejman Rasti. Multimedia Tools and Applications, 2024.
+      </li>
+      <li>
+        <strong><a href="https://www.scitepress.org/Papers/2024/125573/125573.pdf" target="_blank">Multimodal Deepfake Detection for Short Videos</a></strong><br>
+        Abderrazzaq Moufidi, David Rousseau, and Pejman Rasti. In: IMPROVE, 2024, pp. 67–73.
+      </li>
+    </ul>
+  </section>
+
+  <section id="projects" class="container">
+    <h2><i class="icon fas fa-project-diagram"></i>Projects</h2>
+    <ul style="font-family: 'Poppins', sans-serif; font-size: 14px; color: #4a4a4a; padding-left: 20px; line-height: 1.6;">
+    <li style="margin-bottom: 20px;">
+        <strong>Sparsity and Inverse Problems Project</strong> - University of Paris-Saclay (October - November 2020)<br>
+        - Optimized audio signals affected by clipping (magnitude saturation) using sparse synthesis and analysis methods.<br>
+        - Implemented a scientific paper's proposed algorithm to recover clean signals from distorted ones, evaluating its performance and computational complexity.<br>
+        - Utilized wavelets and MATLAB to achieve efficient signal recovery and analyze the algorithm's robustness.<br>
+        <em>Technologies: Sparse synthesis, sparse analysis, wavelets, MATLAB</em>
+    </li>
+    <li style="margin-bottom: 20px;">
+        <strong>Image Processing Project</strong> - EPFL, Switzerland (May - June 2020)<br>
+        - Extracted digits and simple mathematical operations from robot movement videos using advanced image processing techniques.<br>
+        - Built a training dataset for elementary mathematical operations and trained a custom convolutional neural network (CNN) for object recognition.<br>
+        - Applied segmentation and contour detection to preprocess video frames and improve recognition accuracy.<br>
+        <em>Technologies: Segmentation, contours, CNN, MNIST, Python, PyTorch</em>
+    </li>
+    <li style="margin-bottom: 20px;">
+        <strong>Deep Learning Mini-Project</strong> - EPFL, Switzerland (May - June 2020)<br>
+        - Designed a fully-connected neural network (MLP) for classifying points in a 2D plane.<br>
+        - Compared the performance of optimization algorithms (SGD, GD, Adam) during backpropagation and analyzed their impact on convergence.<br>
+        - Investigated the effects of weight initialization (Xavier), activation functions, and data normalization on model performance.<br>
+        <em>Technologies: Xavier initialization, Adam, MLP, Python, PyTorch</em>
+    </li>
+    <li style="margin-bottom: 20px;">
+        <strong>Robotic System Creation</strong> (October 2018 - January 2019)<br>
+        - Developed a robotic system to move objects from one position to another using Arduino.<br>
+        - Programmed and tested the system to ensure precise and reliable object manipulation.<br>
+        <em>Technologies: Arduino</em>
+    </li>
+    <li style="margin-bottom: 20px;">
+        <strong>Design and Manufacture of a Manipulator Robot</strong> (February - May 2019)<br>
+        - Built a robotic system to assist physically disabled individuals in opening doors and pressing buttons.<br>
+        - Collaborated in a team to develop a joystick-based control script for the robot.<br>
+        <em>Technologies: Arduino, robotics, teamwork</em>
+    </li>
+
+    </ul>
+  </section>
+
+  <section id="interests" class="container">
+    <h2><i class="icon fas fa-lightbulb"></i>Interests</h2>
+    <ul>
+      <li><strong>Sports:</strong> Running, Chess, Tennis, Climbing</li>
+      <li><strong>Others:</strong> Technology, History, Travel</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="container">
+    <h2><i class="icon fas fa-envelope"></i>Contact</h2>
+    <p><i class="fa-solid fa-inbox"></i> <strong>Email:</strong> <a href="mailto:amoufidi97@gmail.com">amoufidi97@gmail.com</a></p>
+    
+    <p>
+    <strong>PhD Links:</strong> <a href="https://youtu.be/0hN1RmmgKTQ?si=ZWxmwrN1tbMI22VO">Presentation</a> ||
+    <a href="https://theses.fr/s309378">Thesis Manuscript</a>
+    </p>
+    <p>
+      <strong>Profiles:</strong>
+      <a href="https://scholar.google.com/citations?user=a6FhgPAAAAAJ&hl=en&oi=ao" target="_blank"><i class="icon fas fa-graduation-cap"></i>Google Scholar</a> ||
+      <a href="https://github.com/amoufidi" target="_blank"><i class="icon fab fa-github"></i>GitHub</a> ||
+      <a href="https://www.linkedin.com/in/abderrazzaq-m-21062688/" target="_blank"><i class="icon fab fa-linkedin"></i>LinkedIn</a> ||
+      <a href="https://www.researchgate.net/profile/Abderrazzaq-Moufidi" target="_blank"><i class="icon fab fa-researchgate"></i>ResearchGate</a>
+    </p>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Abderrazzaq MOUFIDI</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
